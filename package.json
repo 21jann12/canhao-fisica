@@ -1,0 +1,11 @@
+{
+  "name": "canhao",
+  "version": "1.0.0",
+  "description": "canhao de fisica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luanerdy and jann",
+  "license": "ISC"
+}

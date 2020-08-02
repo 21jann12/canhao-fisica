@@ -1,0 +1,17 @@
+.element{
+	text-indent: -9999px;
+}
+
+#tela{
+	width: 600px;
+	height: 400px;
+	background-image: url("../img/fundo.jpg");
+	background-size: 600px 400px;
+}
+
+#bola{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: gray;
+}
