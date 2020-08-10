@@ -1,17 +1,52 @@
-.element{
+.element {
 	text-indent: -9999px;
 }
 
-#tela{
-	width: 600px;
-	height: 400px;
+#tela {
+	width: 1500px;
+	height: 700px;
 	background-image: url("../img/fundo.jpg");
-	background-size: 600px 400px;
+	background-size: 1500px 700px;
+	position: absolute;
 }
 
-#bola{
+#bola {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: gray;
+	background-color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 85px;
+}
+
+#roda {
+	background-color: blue;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	z-index: 100;
+}
+
+#corpo {
+	width: 50px;
+	height: 40px;
+	background-color: red;
+	z-index: 99;
+	position: absolute;
+	bottom: 25px;
+	left: 10px;
+}
+
+#cano {
+	width: 65px;
+	height: 24px;
+	position: absolute;
+	background-color: yellow;
+	bottom: 38px;
+	left: 35px;
+	z-index: 98;
 }
